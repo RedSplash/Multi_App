@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:background="@drawable/background"
+
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/hello"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:text="MENU"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+    <ScrollView android:layout_width = "fill_parent" android:layout_height="150dp">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="App 1"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/tutorial1" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App 2"
+            android:id="@+id/tutorial2"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App 3"
+                android:id="@+id/tutorial3"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="App 4"
+                android:id="@+id/tutorial4"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
